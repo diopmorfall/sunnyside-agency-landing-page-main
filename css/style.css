@@ -1,1 +1,65 @@
-/* No CSS */
+.flex, .flex-column, .flex-justify-center, .client-feedback, body .page .testimonials > div, body .page .testimonials, body, body .page, body .page .home, body .page .footer > div, .flex-row, body nav, body .page .footer > div > div { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.flex-column, .flex-justify-center, .client-feedback, body .page .testimonials > div, body .page .testimonials, body, body .page, body .page .home, body .page .footer > div { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.flex-row, body nav, body .page .footer > div > div { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+
+.flex-justify-center, .client-feedback, body .page .testimonials > div, body .page .testimonials { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.img-first img, body .page .presentation > div:nth-of-type(2) img, body .page .presentation > div:nth-of-type(3) img { height: 312px; }
+
+.img-first .card, body .page .presentation > div:nth-of-type(2) .card, body .page .presentation > div:nth-of-type(3) .card { padding: 50px 25px 50px 25px; }
+
+.img-first .card h2, body .page .presentation > div:nth-of-type(2) .card h2, body .page .presentation > div:nth-of-type(3) .card h2 { font-family: "Fraunces", serif; font-weight: 900; margin-bottom: 30px; }
+
+.img-first .card p, body .page .presentation > div:nth-of-type(2) .card p, body .page .presentation > div:nth-of-type(3) .card p { font-family: "Barlow", sans-serif; }
+
+.img-first .card a, body .page .presentation > div:nth-of-type(2) .card a, body .page .presentation > div:nth-of-type(3) .card a { display: block; margin-top: 30px; font-family: "Fraunces", serif; text-transform: uppercase; color: black; text-decoration: none; }
+
+.img-first .card a:visited, body .page .presentation > div:nth-of-type(2) .card a:visited, body .page .presentation > div:nth-of-type(3) .card a:visited, .img-first .card a:active, body .page .presentation > div:nth-of-type(2) .card a:active, body .page .presentation > div:nth-of-type(3) .card a:active { text-decoration: none; }
+
+.back-img, body .page .presentation > div:nth-of-type(4), body .page .presentation > div:nth-of-type(5) { height: 550px; background-size: cover; background-position-y: top; position: relative; }
+
+.back-img .content, body .page .presentation > div:nth-of-type(4) .content, body .page .presentation > div:nth-of-type(5) .content { position: absolute; bottom: 25px; padding: 15px; }
+
+.back-img .content h3, body .page .presentation > div:nth-of-type(4) .content h3, body .page .presentation > div:nth-of-type(5) .content h3 { margin-bottom: 30px; font-family: "Fraunces", serif; }
+
+.back-img .content p, body .page .presentation > div:nth-of-type(4) .content p, body .page .presentation > div:nth-of-type(5) .content p { font-family: "Barlow", sans-serif; }
+
+.client-feedback, body .page .testimonials > div { margin-bottom: 45px; border: 2px solid yellowgreen; }
+
+.client-feedback img, body .page .testimonials > div img { width: 60px; margin: auto; border-radius: 50%; margin-bottom: 25px; }
+
+.client-feedback p, body .page .testimonials > div p { font-family: "Barlow", sans-serif; }
+
+.client-feedback span, body .page .testimonials > div span { display: block; margin-top: 25px; }
+
+.client-feedback .client, body .page .testimonials > div .client { font-family: "Barlow", sans-serif; }
+
+.client-feedback .client-role, body .page .testimonials > div .client-role { margin-top: 5px; font-size: small; }
+
+* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-size: 18px; text-align: center; }
+
+body nav { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 20px; height: 65px; background-color: aqua; }
+
+body nav ul { display: none; -ms-flex-pack: distribute; justify-content: space-around; list-style-type: none; }
+
+body .page .home { background-color: aqua; height: 480px; color: white; background-image: url("/images/mobile/image-header.jpg"); background-repeat: no-repeat; background-size: cover; background-position-y: bottom; }
+
+body .page .home h1 { position: relative; top: 120px; font-family: "Fraunces", serif; font-weight: 900; text-transform: uppercase; letter-spacing: 10px; }
+
+body .page .home img { position: relative; top: 20px; width: 35px; margin: auto; height: 120px; }
+
+body .page .presentation > div:nth-of-type(4) { background-image: url("/images/mobile/image-graphic-design.jpg"); }
+
+body .page .presentation > div:nth-of-type(5) { background-image: url("/images/mobile/image-photography.jpg"); }
+
+body .page .testimonials { padding: 45px 20px 45px 20px; }
+
+body .page .testimonials h3 { font-family: "Fraunces", serif; text-transform: uppercase; letter-spacing: 2px; font-size: medium; margin-bottom: 45px; }
+
+body .page .footer > div > div img { width: 50%; }
+
+body .page .attribution { display: none; position: absolute; bottom: 0; }
