@@ -26,16 +26,16 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile layout 1/4](images/mobile/1.png)![Mobile layout 2/4](images/mobile/1.png)![Mobile layout 3/4](images/mobile/1.png)
-![Mobile layout 4/4](images/mobile/1.png)
-![Mobile menu](images/mobile/menu.png)
-![Desktop layout 1/3](images/mobile/1.png)
-![Desktop layout 2/3](images/mobile/1.png)
-![Desktop layout 3/3](images/mobile/1.png)
+![Mobile layout 1/4](/sunnyside-agency-landing-page-main/images/mobile/1.png)![Mobile layout 2/4](/sunnyside-agency-landing-page-main/images/mobile/1.png)![Mobile layout 3/4](/sunnyside-agency-landing-page-main/images/mobile/1.png)
+![Mobile layout 4/4](/sunnyside-agency-landing-page-main/images/mobile/1.png)
+![Mobile menu](/sunnyside-agency-landing-page-main/images/mobile/menu.png)
+![Desktop layout 1/3](/sunnyside-agency-landing-page-main/images/mobile/1.png)
+![Desktop layout 2/3](/sunnyside-agency-landing-page-main/images/mobile/1.png)
+![Desktop layout 3/3](/sunnyside-agency-landing-page-main/images/mobile/1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-with-flexbox-and-sass-txYm6i6gf)
 - Live Site URL: [Github Pages](https://diopmorfall.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
