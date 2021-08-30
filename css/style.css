@@ -122,27 +122,33 @@ body .page .footer .contact .socials a { width: 20px; }
 
 body .page .attribution { width: 100%; bottom: -0.01%; }
 
-@media only screen and (min-width: 500px) { body .home img { top: 20px; } }
+@media only screen and (min-width: 500px) and (max-width: 889px) { body .presentation .home h1 { top: 20px; }
+  body .presentation .home img { top: -90px; }
+  body .presentation .img-first .card { width: 70%; margin: auto; }
+  body .presentation .back-img-container .back-img, body .page .presentation .back-img-container > div:last-of-type, body .presentation .back-img-container > div:last-of-type { height: 790px; } }
 
-@media only screen and (min-width: 850px) { body nav { height: 80px; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+@media only screen and (min-width: 890px) { body nav { height: 80px; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   body nav .brand { margin-left: 25px; }
   body nav .menu { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; top: 0; right: 2px; height: 100%; width: 50%; background-color: inherit; z-index: inherit; }
   body nav .menu::before { display: none; }
-  body nav .menu ul { margin-right: 50px; width: 75%; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  body nav .menu ul { margin-right: 80px; width: 75%; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   body nav .menu ul li { width: 15%; margin-right: 50px; }
   body nav .menu ul li a { color: white; }
-  body nav .menu ul li:last-of-type { margin-right: 0; width: 25%; height: 75%; background-color: white; }
+  body nav .menu ul li:last-of-type { margin-right: 0; width: 40%; height: 75%; background-color: white; }
   body nav .menu ul li:last-of-type a { color: black; }
   body nav .menu-icon { display: none; }
+  body .page { width: 100%; }
   body .page .home { height: 700px; background-image: url("/images/desktop/image-header.jpg"); background-position: center; }
   body .page .home h1 { top: 160px; }
   body .page .home img { top: -50px; }
   body .page .presentation > div:nth-of-type(2), body .page .presentation > div:nth-of-type(3) { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   body .page .presentation > div:nth-of-type(2) .mobile-img, body .page .presentation > div:nth-of-type(3) .mobile-img { display: none; }
-  body .page .presentation > div:nth-of-type(2) .desktop-img, body .page .presentation > div:nth-of-type(3) .desktop-img { display: -webkit-box; display: -ms-flexbox; display: flex; width: 50%; }
-  body .page .presentation > div:nth-of-type(2) .card, body .page .presentation > div:nth-of-type(3) .card { width: 35%; margin: auto; text-align: left; }
+  body .page .presentation > div:nth-of-type(2) .desktop-img, body .page .presentation > div:nth-of-type(3) .desktop-img { display: -webkit-box; display: -ms-flexbox; display: flex; }
+  body .page .presentation > div:nth-of-type(2) .desktop-img, body .page .presentation > div:nth-of-type(2) .card, body .page .presentation > div:nth-of-type(3) .desktop-img, body .page .presentation > div:nth-of-type(3) .card { width: 50%; }
+  body .page .presentation > div:nth-of-type(2) .card, body .page .presentation > div:nth-of-type(3) .card { padding: 0 75px 0 140px; text-align: left; }
   body .page .presentation > div:nth-of-type(2) .card h2, body .page .presentation > div:nth-of-type(3) .card h2 { width: 70%; }
   body .page .presentation > div:nth-of-type(2) .card { -webkit-box-ordinal-group: 0; -ms-flex-order: -1; order: -1; }
+  body .page .presentation > div:nth-of-type(2) .card h2 { width: 50%; }
   body .page .presentation .back-img-container { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
   body .page .presentation .back-img-container > div { width: 50%; background-position: center; }
   body .page .presentation .back-img-container > div .content p { width: 55%; margin: 0 auto; }
