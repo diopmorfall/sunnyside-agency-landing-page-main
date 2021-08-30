@@ -12,13 +12,15 @@
 	<body>
 		<nav>
 			<img src="/images/logo.svg" class="brand" alt="Brand">
-			<ul>
-				<li>About</li>
-				<li>Services</li>
-				<li>Projects</li>
-				<li>Contact</li>
-			</ul>
-			<img src="/images/icon-hamburger.svg" alt="Mobile menu">
+			<div class="menu hidden">
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<img src="/images/icon-hamburger.svg" class="menu-icon" alt="Mobile menu">
 		</nav>
 		<div class="page">
 			<section class="presentation">
@@ -26,8 +28,9 @@
 					<h1>We are creatives</h1>
 					<img src="/images/icon-arrow-down.svg" alt="Arrow down">
 				</div>
-				<div>
-					<img src="/images/mobile/image-transform.jpg" alt="Divisor image">
+				<div class="img-first">
+					<img src="/images/mobile/image-transform.jpg" class="mobile-img" alt="Transform image">
+					<img src="/images/desktop/image-transform.jpg" class="desktop-img" alt="Transform image">
 					<div class="card">
 						<h2>Transform your brand</h2>
 						<p>
@@ -37,8 +40,9 @@
 						</p>
 					</div>
 				</div>
-				<div>
-					<img src="/images/mobile/image-stand-out.jpg" alt="Img">
+				<div class="img-first">
+					<img src="/images/mobile/image-stand-out.jpg" class="mobile-img" alt="Stand-out">
+					<img src="/images/desktop/image-stand-out.jpg" class="desktop-img" alt="Stand-out">
 					<div class="card">
 						<h2>Stand out to the right audience</h2>
 						<p>
@@ -48,54 +52,58 @@
 						<a href="#">Learn more</a>
 					</div>
 				</div>
-				<div>
-					<div class="content">
-						<h3>Graphic design</h3>
-						<p>
-							Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
-							clients’ attention.
-						</p>
+				<div class="back-img-container">
+					<div class="back-img">
+						<div class="content">
+							<h3>Graphic design</h3>
+							<p>
+								Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential
+								clients’ attention.
+							</p>
+						</div>
 					</div>
-				</div>
-				<div class="card">
-					<div class="content">
-						<h3>Photography</h3>
-						<p>
-							Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-						</p>
+					<div>
+						<div class="content">
+							<h3>Photography</h3>
+							<p>
+								Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section class="testimonials">
 				<h3>Client testimonials</h3>
-				<div>
-					<img src="/images/image-emily.jpg" alt="Emily">
-					<p>
-						We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-						<span class="client-name">Emily R.</span>
-						<span class="client-role">Marketing Director</span>
-					</p>
-				</div>
-				<div>
-					<img src="/images/image-thomas.jpg" alt="Thomas">
-					<p>
-						Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
-						experience.
-						<span class="client">Thomas S.</span>
-						<span class="client-role">Chief Operating Officer</span>
-					</p>
-				</div>
-				<div>
-					<img src="/images/image-jennie.jpg" alt="Jennie">
-					<p>
-						Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-						<span class="client-name">Jennie F.</span>
-						<span class="client-role">Business Owner</span>
-					</p>
+				<div class="feedbacks-container">
+					<div>
+						<img src="/images/image-emily.jpg" alt="Emily">
+						<p>
+							We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+							<span class="client">Emily R.</span>
+							<span class="client-role">Marketing Director</span>
+						</p>
+					</div>
+					<div>
+						<img src="/images/image-thomas.jpg" alt="Thomas">
+						<p>
+							Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable
+							experience.
+							<span class="client">Thomas S.</span>
+							<span class="client-role">Chief Operating Officer</span>
+						</p>
+					</div>
+					<div>
+						<img src="/images/image-jennie.jpg" alt="Jennie">
+						<p>
+							Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+							<span class="client">Jennie F.</span>
+							<span class="client-role">Business Owner</span>
+						</p>
+					</div>
 				</div>
 			</section>
 			<section class="footer">
-				<div>
+				<div class="mobile-img-grid">
 					<div>
 						<img src="/images/mobile/image-gallery-milkbottles.jpg" alt="Milk bottles">
 						<img src="/images/mobile/image-gallery-orange.jpg" alt="Orange">
@@ -105,23 +113,36 @@
 						<img src="/images/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar cubes">
 					</div>
 				</div>
-				<div class="contact">
-					<h1>Sunnyside</h1>
+				<div class="desktop-img-grid">
 					<div>
+						<img src="/images/desktop/image-gallery-milkbottles.jpg" alt="Milk bottles">
+						<img src="/images/desktop/image-gallery-orange.jpg" alt="Orange">
+					</div>
+					<div>
+						<img src="/images/desktop/image-gallery-cone.jpg" alt="Gallery cone">
+						<img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="Sugar cubes">
+					</div>
+				</div>
+				<div class="contact">
+					<h1>sunnyside</h1>
+					<div class="links">
 						<a href="#">About</a>
 						<a href="#">Services</a>
 						<a href="#">Projects</a>
 					</div>
 					<div class="socials">
-						<!--todo: social icons-->
+						<a href="#"><img src="/images/icon-facebook.svg" alt="Facebook"></a>
+						<a href="#"><img src="/images/icon-instagram.svg" alt="Instagram"></a>
+						<a href="#"><img src="/images/icon-twitter.svg" alt="Twitter"></a>
+						<a href="#"><img src="/images/icon-pinterest.svg" alt="Pinterest"></a>
 					</div>
 				</div>
 			</section>
-
 			<div class="attribution">
 				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
 				Coded by <a href="https://github.com/diopmorfall" target="_blank">Mor Fall Diop</a>.
 			</div>
 		</div>
+		<script src="/js/script.js" defer></script>
 	</body>
 </html>
