@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile layout 1/4](./images/mobile/1.png)![Mobile layout 2/4](./images/mobile/1.png)![Mobile layout 3/4](./images/mobile/1.png)
-![Mobile layout 4/4](./images/mobile/1.png)
-![Mobile menu](./images/mobile/menu.png)
-![Desktop layout 1/3](./images/mobile/1.png)
-![Desktop layout 2/3](./images/mobile/1.png)
-![Desktop layout 3/3](./images/mobile/1.png)
+![Mobile layout 1/4](/images/mobile/1.png)![Mobile layout 2/4](/images/mobile/1.png)![Mobile layout 3/4](/images/mobile/1.png)
+![Mobile layout 4/4](/images/mobile/1.png)
+![Mobile menu](/images/mobile/menu.png)
+![Desktop layout 1/3](/images/mobile/1.png)
+![Desktop layout 2/3](/images/mobile/1.png)
+![Desktop layout 3/3](/images/mobile/1.png)
 
 ### Links
 
