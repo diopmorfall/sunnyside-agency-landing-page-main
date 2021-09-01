@@ -76,7 +76,7 @@ body nav .menu ul li:last-of-type a { color: black; }
 
 body nav .hidden { display: none; }
 
-body .page .home { height: 480px; color: white; background-image: url("/images/mobile/image-header.jpg"); background-repeat: no-repeat; background-position-y: bottom; }
+body .page .home { height: 480px; color: white; background-image: url("/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg"); background-repeat: no-repeat; background-position-y: bottom; }
 
 body .page .home h1 { top: 120px; font-weight: 900; letter-spacing: 10px; }
 
@@ -86,11 +86,11 @@ body .page .presentation > div:nth-of-type(2) a { -webkit-text-decoration-color:
 
 body .page .presentation > div:nth-of-type(3) a { -webkit-text-decoration-color: #fe7867; text-decoration-color: #fe7867; }
 
-body .page .presentation .back-img-container > div:first-of-type { background-image: url("/images/mobile/image-graphic-design.jpg"); }
+body .page .presentation .back-img-container > div:first-of-type { background-image: url("/sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg"); }
 
 body .page .presentation .back-img-container > div:first-of-type h3, body .page .presentation .back-img-container > div:first-of-type p { color: #25564b; }
 
-body .page .presentation .back-img-container > div:last-of-type { background-image: url("/images/mobile/image-photography.jpg"); }
+body .page .presentation .back-img-container > div:last-of-type { background-image: url("/sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg"); }
 
 body .page .presentation .back-img-container > div:last-of-type h3, body .page .presentation .back-img-container > div:last-of-type p { color: #19536b; }
 
@@ -142,7 +142,7 @@ body .page .attribution { width: 100%; bottom: -0.01%; }
   body nav .menu ul li:last-of-type:hover a { color: white; }
   body nav .menu-icon { display: none; }
   body .page { width: 100%; }
-  body .page .home { height: 700px; background-image: url("/images/desktop/image-header.jpg"); background-position: center; }
+  body .page .home { height: 700px; background-image: url("/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg"); background-position: center; }
   body .page .home h1 { top: 160px; }
   body .page .home img { top: -50px; }
   body .page .presentation > div:nth-of-type(2), body .page .presentation > div:nth-of-type(3) { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
@@ -160,8 +160,8 @@ body .page .attribution { width: 100%; bottom: -0.01%; }
   body .page .presentation .back-img-container { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
   body .page .presentation .back-img-container > div { width: 50%; background-position: center; }
   body .page .presentation .back-img-container > div .content p { width: 55%; margin: 0 auto; }
-  body .page .presentation .back-img-container > div:first-of-type { background-image: url("/images/desktop/image-graphic-design.jpg"); }
-  body .page .presentation .back-img-container > div:last-of-type { background-image: url("/images/desktop/image-photography.jpg"); }
+  body .page .presentation .back-img-container > div:first-of-type { background-image: url("/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg"); }
+  body .page .presentation .back-img-container > div:last-of-type { background-image: url("/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg"); }
   body .page .testimonials { padding: 100px 0 50px 0; }
   body .page .testimonials .feedbacks-container { padding: 0 20px 0 20px; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   body .page .testimonials .feedbacks-container > div { width: 25%; height: 80%; }
