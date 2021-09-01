@@ -76,7 +76,7 @@ body nav .menu ul li:last-of-type a { color: black; }
 
 body nav .hidden { display: none; }
 
-body .page .home { height: 480px; color: white; background-image: url("/images/mobile/image-header.jpg"); background-repeat: no-repeat; background-position-y: bottom; }
+body .page .home { height: 480px; color: white; background-image: url("/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg"); background-repeat: no-repeat; background-position-y: bottom; }
 
 body .page .home h1 { top: 120px; font-weight: 900; letter-spacing: 10px; }
 
