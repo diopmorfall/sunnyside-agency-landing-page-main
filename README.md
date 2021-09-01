@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile layout 1/4](/sunnyside-agency-landing-page-main/images/mobile/1.png)![Mobile layout 2/4](/sunnyside-agency-landing-page-main/images/mobile/1.png)![Mobile layout 3/4](/sunnyside-agency-landing-page-main/images/mobile/1.png)
-![Mobile layout 4/4](/sunnyside-agency-landing-page-main/images/mobile/1.png)
-![Mobile menu](/sunnyside-agency-landing-page-main/images/mobile/menu.png)
-![Desktop layout 1/3](/sunnyside-agency-landing-page-main/images/mobile/1.png)
-![Desktop layout 2/3](/sunnyside-agency-landing-page-main/images/mobile/1.png)
-![Desktop layout 3/3](/sunnyside-agency-landing-page-main/images/mobile/1.png)
+![Mobile layout 1/4](/images/mobile/1.png)![Mobile layout 2/4](/images/mobile/1.png)![Mobile layout 3/4](/images/mobile/1.png)
+![Mobile layout 4/4](/images/mobile/1.png)
+![Mobile menu](/images/mobile/menu.png)
+![Desktop layout 1/3](/images/mobile/1.png)
+![Desktop layout 2/3](/images/mobile/1.png)
+![Desktop layout 3/3](/images/mobile/1.png)
 
 ### Links
 
@@ -49,16 +49,17 @@ Users should be able to:
 - Mobile-first workflow
 ### What I learned
 
-This project was a bit challenging, because I never worked with images in this way. I also consolidated my knowledge about Sass, flexbox and the navbar structure with ul and li tags.
+This project was a bit challenging, because I never worked with responsive images with the "srcset" attribute.
+I also consolidated my knowledge about Sass, flexbox and the navbar structure with ul and li tags.
 
 ### Continued development
 
-This project is not fully responsive: the tablet size version isn't optimized, but I'm going to fix it when I'll understand how to make a layout that is halfway from the mobile and desktop layout.
-Also, I have to find a way to make the SVG social icons white when the user hovers with the cursor.
-
+I think this project is not fully responsive: I tried to fix the tablet version making it halfway from the mobile and desktop layout, until I'll find a more optimized layout.
 ### Useful resources
 
 - [Sass tutorial - Color functions](https://www.tutorialsteacher.com/sass/sass-color-functions) - This helped me manipulate correctly the underline color of the links in the second section, with the lighten() function.
+
+- [CSS Filter Generator](https://angel-rs.github.io/css-color-filter-generator/) - This helped me create a filter rule to change the color of the image logo in the footer section.
 
 ## Author
 

@@ -29,8 +29,12 @@
 					<img src="/images/icon-arrow-down.svg" alt="Arrow down">
 				</div>
 				<div class="img-first">
-					<img src="/images/mobile/image-transform.jpg" class="mobile-img" alt="Transform image">
-					<img src="/images/desktop/image-transform.jpg" class="desktop-img" alt="Transform image">
+					<!--todo: fix it with scrset attribute -->
+					<img srcset="/images/mobile/image-transform.jpg 750w,
+								/images/desktop/image-transform.jpg 720w"
+						src="/images/mobile/image-transform.jpg"
+						sizes="(max-width: 889px) 100vw, 50vw"
+						alt="Transform image">
 					<div class="card">
 						<h2>Transform your brand</h2>
 						<p>
@@ -41,8 +45,11 @@
 					</div>
 				</div>
 				<div class="img-first">
-					<img src="/images/mobile/image-stand-out.jpg" class="mobile-img" alt="Stand-out">
-					<img src="/images/desktop/image-stand-out.jpg" class="desktop-img" alt="Stand-out">
+					<img srcset="/images/mobile/image-stand-out.jpg 750w,
+								/images/desktop/image-stand-out.jpg 720w"
+						src="/images/mobile/image-stand-out.jpg"
+						sizes="(max-width: 889px) 100vw, 50vw"
+						alt="Transform image">
 					<div class="card">
 						<h2>Stand out to the right audience</h2>
 						<p>
@@ -103,28 +110,40 @@
 				</div>
 			</section>
 			<section class="footer">
-				<div class="mobile-img-grid">
+				<div class="img-grid">
 					<div>
-						<img src="/images/mobile/image-gallery-milkbottles.jpg" alt="Milk bottles">
-						<img src="/images/mobile/image-gallery-orange.jpg" alt="Orange">
+						<img srcset="/images/mobile/image-gallery-milkbottles.jpg 376w,
+							/images/desktop/image-gallery-milkbottles.jpg 720w"
+							src="/images/mobile/image-gallery-milkbottles.jpg.jpg"
+							sizes="(max-width: 499px) 50vw, 25vw"
+							alt="Milk bottles"
+						>
+
+							<img srcset="/images/mobile/image-gallery-orange.jpg 376w,
+								/images/desktop/image-gallery-orange.jpg 720w"
+								src="/images/mobile/image-gallery-orange.jpg"
+								sizes="(max-width: 499px) 50vw, 25vw"
+								alt="Orange"
+							>
 					</div>
 					<div>
-						<img src="/images/mobile/image-gallery-cone.jpg" alt="Gallery cone">
-						<img src="/images/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar cubes">
-					</div>
-				</div>
-				<div class="desktop-img-grid">
-					<div>
-						<img src="/images/desktop/image-gallery-milkbottles.jpg" alt="Milk bottles">
-						<img src="/images/desktop/image-gallery-orange.jpg" alt="Orange">
-					</div>
-					<div>
-						<img src="/images/desktop/image-gallery-cone.jpg" alt="Gallery cone">
-						<img src="/images/desktop/image-gallery-sugarcubes.jpg" alt="Sugar cubes">
+						<img srcset="/images/mobile/image-gallery-cone.jpg 376w,
+							/images/desktop/image-gallery-cone.jpg 720w"
+							src="/images/mobile/image-gallery-cone.jpg"
+							sizes="(max-width: 499px) 50vw, 25vw"
+							alt="Cone"
+						>
+
+						<img srcset="/images/mobile/image-gallery-sugar-cubes.jpg 376w,
+							/images/desktop/image-gallery-sugar-cubes.jpg 720w"
+							src="/images/mobile/image-gallery-sugar-cubes.jpg"
+							sizes="(max-width: 499px) 50vw, 25vw"
+							alt="Sugar cubes"
+						>
 					</div>
 				</div>
 				<div class="contact">
-					<h1>sunnyside</h1>
+					<img src="/images/logo.svg" alt="Logo">
 					<div class="links">
 						<a href="#">About</a>
 						<a href="#">Services</a>
