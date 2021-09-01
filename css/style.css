@@ -56,7 +56,7 @@
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
 
-body { font-size: 18px; text-align: center; }
+body { font-size: 18px; text-align: center; width: 100vw; }
 
 body nav { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 20px; height: 65px; background-color: #3dbeff; }
 
@@ -116,13 +116,18 @@ body .page .footer .contact .socials a { width: 20px; }
 
 body .page .attribution { width: 100%; bottom: -0.01%; }
 
-@media only screen and (min-width: 500px) and (max-width: 889px) { body .page .presentation .home h1 { top: 20px; }
-  body .page .presentation .home img { top: -90px; }
+@media only screen and (min-width: 500px) and (max-width: 889px) { body .page .presentation .home { height: 650px; }
+  body .page .presentation .home h1 { top: 40px; }
+  body .page .presentation .home img { top: -170px; }
   body .page .presentation .img-first .card { width: 75%; margin: auto; }
   body .page .presentation .back-img-container .back-img, body .page .presentation .back-img-container > div:last-of-type, body .page .presentation .back-img-container > div:last-of-type { height: 800px; }
   body .page .testimonials .feedbacks-container { width: 60%; margin: auto; }
   body .page .footer .img-grid { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
-  body .page .footer .img-grid > div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; } }
+  body .page .footer .img-grid > div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+  body .page .footer .contact > img { width: 15%; }
+  body .page .footer .contact .links { width: 45%; margin: auto; margin-bottom: 90px; }
+  body .page .footer .contact .socials { width: 35%; margin: auto; }
+  body .page .footer .contact .socials a { width: 20px; } }
 
 @media only screen and (min-width: 890px) { body nav { height: 80px; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
   body nav .brand { margin-left: 25px; }
@@ -163,6 +168,7 @@ body .page .attribution { width: 100%; bottom: -0.01%; }
   body .page .testimonials .feedbacks-container > div p .client { margin-top: 60px; }
   body .page .footer .img-grid { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
   body .page .footer .img-grid > div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+  body .page .footer .contact > img { width: 10%; }
   body .page .footer .contact .links { width: 25%; margin: auto; margin-bottom: 90px; }
   body .page .footer .contact .socials { width: 15%; margin: auto; }
   body .page .footer .contact .socials a { width: 20px; }
